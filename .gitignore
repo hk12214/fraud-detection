@@ -1,0 +1,13 @@
+# Ignore local environment files
+.env
+__pycache__/
+*.pyc
+
+# CRITICAL: Never commit raw or processed datasets to GitHub
+data/
+models/*.pkl
+models/*.joblib
+
+# IDE configurations
+.vscode/
+.idea/
